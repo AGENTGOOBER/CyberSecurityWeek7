@@ -23,6 +23,9 @@ The comment content had to be greater than 64kb in order to work.
 After the comment was submitted, I approved the comment as the admin, and went to view the post with the comments. 
 On the load of the page the exploit was ran. This vulnerability was patched in WordPress 4.2.1.
 
+Gif:
+<img src="XSS Exploit 1.gif" width="800">
+
 
 Exploit 2:
 
@@ -47,6 +50,9 @@ I made a post as a user with Author privileges using the source code as the cont
 I then signed in as an admin and when viewing the post, the script ran on mouseover of the post. 
 This vulnerability was patched in WordPress 4.2.3.
 
+Gif:
+<img src="XSS Exploit 2.gif" width="800">
+
 
 Exploit 3:
 
@@ -68,3 +74,6 @@ Guide for recreation:
 I made a post as a user with Author privileges using the source code for the content of the post. 
 I then signed in as an admin and then when going to click the link, the script runs on mouseover instead of onclick.
 This vulnerability was patched in WordPress 4.2.5.
+
+Gif:
+<img src="XSS Exploit 3.gif" width="800">
